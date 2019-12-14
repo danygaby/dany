@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<topic name="*ESTAS BIEN">
+	<category>
+		<pattern>HOLA ESTAS BIEN</pattern>
+		<that>yo bien y tu?</that>
+		<template>yo bien, y vos?</template>
+	</category>
+</topic>
+
+</aiml>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- File: udc.aiml -->
-<!-- Last modified: September 5, 2014 -->
+<!-- File: reductions3.aiml -->
+<!-- Last modified: July 27, 2016 -->
 <!--  -->
 <!-- This AIML file is part of the Rosie knowledge base. -->
 <!--  -->
@@ -20,16 +20,15 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category><pattern>*</pattern>
-<template><srai>UDC</srai></template>
+<category><pattern>GENDERNAME <set>name</set></pattern>
+<template><map><name>gendername</name><star/></map></template>
 </category>
-<category><pattern>UDC</pattern>
-<template><random>
-<li><srai>RANDOM PICKUP LINE</srai></li>
-<li><srai>INQUIRY AGE</srai></li>
-<li><srai>INQUIRY GENDER</srai></li>
-<li><srai>INQUIRY LOCATION</srai></li>
-</random></template>
+<category><pattern>GENDERNAME *</pattern>
+<template>unknown</template>
 </category>
 
+<!-- GITHUB ISSUE FIX -->
+<category><pattern>WHAT IS WHAT</pattern>
+<template>Well, that makes no sense.</template>
+</category>
 </aiml>
