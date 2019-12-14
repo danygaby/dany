@@ -8,6 +8,9 @@
     <pattern>hola como estas</pattern>
     <template>Edit bot response</template>
 </category>
+
+<category><pattern>estoy muy bien</pattern><template><srai>HOLA COMO ESTAS</srai></template></category>
+
 <category>
     <pattern>estas bien</pattern>
     <template>Edit bot response</template>
